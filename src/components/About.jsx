@@ -43,7 +43,7 @@ const About = () => {
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
         I am a skilled Web developer with experience in JavaScript and I am good
-        in frameworks like React Js, Node JS and ExpressJS. I'ma quick learner
+        in frameworks like React Js, Node JS and ExpressJS. I'm a quick learner
         and collaborate closely with clients to create efficient, scalable andn
         user-friendly solutions that solve real-worl problems. Let's work
         together to bring your ideas to life.

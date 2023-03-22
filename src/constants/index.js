@@ -23,6 +23,11 @@ import {
   jobit,
   tripguide,
   threejs,
+  vyral24,
+  freelance,
+  java,
+  dashboard,
+  ecommerce,
 } from '../assets';
 
 export const navLinks = [
@@ -46,7 +51,7 @@ const services = [
     icon: web,
   },
   {
-    title: 'React Native Developer',
+    title: 'UI / UX Designer',
     icon: mobile,
   },
   {
@@ -73,8 +78,8 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: 'TypeScript',
-    icon: typescript,
+    name: 'Java',
+    icon: java,
   },
   {
     name: 'React JS',
@@ -104,65 +109,44 @@ const technologies = [
     name: 'git',
     icon: git,
   },
-  {
-    name: 'figma',
-    icon: figma,
-  },
-  {
-    name: 'docker',
-    icon: docker,
-  },
 ];
 
 const experiences = [
   {
-    title: 'React.js Developer',
-    company_name: 'Starbucks',
-    icon: starbucks,
-    iconBg: '#383E56',
-    date: 'March 2020 - April 2021',
-    points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
-    ],
-  },
-  {
-    title: 'React Native Developer',
-    company_name: 'Tesla',
-    icon: tesla,
+    title: 'FrontEnd Developer',
+    company_name: 'Freelance',
+    icon:freelance,
     iconBg: '#E6DEDD',
-    date: 'Jan 2021 - Feb 2022',
+    date: 'October 2022',
     points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
+      'Developing and maintaining web applications using HTML,CSS,JavaScript and other related technologies.',
       'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
       'Implementing responsive design and ensuring cross-browser compatibility.',
       'Participating in code reviews and providing constructive feedback to other developers.',
     ],
   },
   {
-    title: 'Web Developer',
-    company_name: 'Shopify',
-    icon: shopify,
+    title: 'FrontEnd Developer',
+    company_name: 'vyRAL24',
+    icon:vyral24,
     iconBg: '#383E56',
-    date: 'Jan 2022 - Jan 2023',
+    date: 'January 2022 - Present',
     points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
+      'Developing and maintaining web applications using HTML, JavaScript, CSS, ReactJS and other related technologies.',
+      'Collaborating with cross-functional teams including designers, ad managers, and clients to create high-quality products.',
       'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
     ],
   },
+
   {
-    title: 'Full stack Developer',
-    company_name: 'Meta',
-    icon: meta,
-    iconBg: '#E6DEDD',
-    date: 'Jan 2023 - Present',
+    title: 'FrontEnd Developer',
+    company_name: 'Freelance',
+    icon: freelance,
+    iconBg: '#383E56',
+    date: 'December 2022',
     points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
+      'Designed and Developed a website for a cryptocurrency client.',
+      'Collaborated with cross-functional teams including designers, product managers, and the client himself to create high-quality products.',
       'Implementing responsive design and ensuring cross-browser compatibility.',
       'Participating in code reviews and providing constructive feedback to other developers.',
     ],
@@ -198,67 +182,42 @@ const testimonials = [
 
 const projects = [
   {
-    name: 'Car Rent',
+    name: 'Dashboard Manager',
     description:
-      'Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.',
+      'Web-based platform that allows users to search, for data in an organised manner, which reduces the stress because of the overwhelming already existing data',
     tags: [
       {
         name: 'react',
         color: 'blue-text-gradient',
       },
       {
-        name: 'mongodb',
+        name: 'materialUI',
         color: 'green-text-gradient',
       },
-      {
-        name: 'tailwind',
-        color: 'pink-text-gradient',
-      },
     ],
-    image: carrent,
-    source_code_link: 'https://github.com/',
+    image: dashboard,
+    source_code_link: 'https://github.com/Dev-Code24/react-dashboard',
   },
   {
-    name: 'Job IT',
+    name: 'Ecommerce Website',
     description:
-      'Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.',
+      'An E-Commerce website which is fully functional with a strapi backend and a working stripe payment gateway .',
     tags: [
       {
         name: 'react',
         color: 'blue-text-gradient',
       },
       {
-        name: 'restapi',
+        name: 'strapi',
         color: 'green-text-gradient',
       },
       {
-        name: 'scss',
+        name: 'stripe',
         color: 'pink-text-gradient',
       },
     ],
-    image: jobit,
-    source_code_link: 'https://github.com/',
-  },
-  {
-    name: 'Trip Guide',
-    description:
-      'A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.',
-    tags: [
-      {
-        name: 'nextjs',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'supabase',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'css',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: tripguide,
-    source_code_link: 'https://github.com/',
+    image: ecommerce,
+    source_code_link: 'https://github.com/Dev-Code24/ecommerceWithStrapi',
   },
 ];
 
