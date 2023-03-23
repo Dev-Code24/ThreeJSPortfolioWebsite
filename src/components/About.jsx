@@ -5,7 +5,7 @@ import { styles } from '../styles';
 import { services } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
 import { SectionWrapper } from '../hoc';
-import Tilt from 'react-tilt';
+import Tilt from 'react-parallax-tilt';
 
 const ServiceCard = ({ index, title, icon, isMobile }) => {
   return isMobile ? (
